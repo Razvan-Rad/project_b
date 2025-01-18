@@ -21,9 +21,9 @@ import {
 
 const navItems = [
   { title: 'Intro', url: '/' },
-  { title: 'Project 1', url: '/project/1' },
+  { title: 'HashPass+', url: '/hashpass' },
   { title: 'Project 2', url: '/project/2' },
-  { title: 'Project 3', url: '/project/blender' },
+  { title: 'Blender artworks', url: '/project/blender' },
   { title: 'My Resume', url: '/resume' },
 ]
 
@@ -35,7 +35,7 @@ export function AppSidebar() {
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size="lg" asChild>
+            <SidebarMenuButton asChild>
               <Link href="/">
                 <div className="bg-primary text-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
                   <GalleryVerticalEnd className="size-4" />

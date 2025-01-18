@@ -8,7 +8,7 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 
 const navItems = [
   { name: 'Intro', href: '/' },
-  { name: 'Project 1', href: '/project/1' },
+  { name: 'HashPass+', href: '/hashpass' },
   { name: 'Project 2', href: '/project/2' },
   { name: 'Project 3', href: '/project/blender' },
   {name: 'My Resume', href: '/resume'},

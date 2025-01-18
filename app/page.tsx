@@ -17,19 +17,19 @@ export default function Home() {
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">Featured Projects</h2> 
-        <Link href="/project/1">
+        <Link href="/hashpass">
             <div className="relative">
               <Image 
                 src="/intro_page/picture1.png" 
-                alt="Project 1" 
+                alt="HashPass+" 
                 layout="responsive" 
                 width={100} 
                 height={100} 
                 objectFit="cover" 
                 className="rounded-lg" 
               />
-              <p className="absolute bottom-0 left-0 right-0 p-2 bg-gray-800 bg-opacity-70 text-white text-center">
-                Project 1 Description
+              <p className="absolute bottom-0 left-0 right-0 p-2 bg-gray-800 bg-opacity-30 text-white text-center rounded-[10px]">
+              HashPass+: The Best Password Manager
               </p>
             </div>
         </Link>
@@ -45,13 +45,13 @@ export default function Home() {
                 objectFit="cover" 
                 className="rounded-lg" 
               />
-              <p className="absolute bottom-0 left-0 right-0 p-2 bg-gray-800 bg-opacity-70 text-white text-center">
+              <p className="absolute bottom-0 left-0 right-0 p-2 bg-gray-800 bg-opacity-30 text-white text-center rounded-[10px]">
                 Project 2 Description
               </p>
             </div>
         </Link>
         <br/>
-        <Link href="/project/3">
+        <Link href="/project/blender">
             <div className="relative">
               <Image 
                 src="/intro_page/picture3.png" 
@@ -62,7 +62,7 @@ export default function Home() {
                 objectFit="cover" 
                 className="rounded-lg" 
               />
-              <p className="absolute bottom-0 left-0 right-0 p-2 bg-gray-800 bg-opacity-70 text-white text-center">
+              <p className="absolute bottom-0 left-0 right-0 p-2 bg-gray-800 bg-opacity-30 text-white text-center rounded-[10px]">
                 Project 3 Description
               </p>
             </div>
