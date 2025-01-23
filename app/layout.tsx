@@ -22,12 +22,18 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={`${inter.className} antialiased`}>
-        <SidebarProvider>
-          <AppSidebar />
-          <SidebarTrigger className="ml-3 mt-3" />
-          <main className="flex-1 overflow-auto p-8 pt-16">{children}</main>
-        </SidebarProvider>
-        <Footer />
+        {/* make the footer stick at the bottom */}
+        <div className='flex'>
+          <SidebarProvider>
+            <AppSidebar />
+            <SidebarTrigger className=" fixed ml-3 mt-3" />
+          </SidebarProvider>
+
+          <main className="flex-1 overflow-auto p-8 pt-16">{children}
+          </main>
+        </div>
+      
+        <Footer />   
       </body>
     </html>
   )
